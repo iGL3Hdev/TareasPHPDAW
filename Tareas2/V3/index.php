@@ -130,9 +130,9 @@
 
                 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="GET">
                     <fieldset>
-                    <legend>Vaciar Agenda</legend>
-                    <button type="submit" name="vaciar" value="1">Vaciar</button>
-                </fieldset>
+                        <legend>Vaciar Agenda</legend>
+                        <button type="submit" name="vaciar" value="1">Vaciar</button>
+                    </fieldset>
     
                 </form>
 

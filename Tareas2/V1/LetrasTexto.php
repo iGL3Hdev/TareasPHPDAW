@@ -62,7 +62,7 @@
     <form method="POST">
 
         <label for="Texto">Texto</label> 
-        <textarea name="Texto" id="Textp" cols="30" rows="10"></textarea>
+        <textarea name="Texto" id="Texto" cols="30" rows="10"></textarea>
 
         <input type="submit" name="enviar" value="Enviar">
         <input type="reset" value="Reiniciar">
