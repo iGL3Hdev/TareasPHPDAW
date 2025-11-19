@@ -14,12 +14,9 @@ try {
     $stmt = null;
     $conProyecto = null;
     echo "ocurrio un error al borrar el producto, mensaje: " . $ex->getMessage();
-    echo " <a href='listado.php'
-style='text-decoration:none;'><button>Volver</button></a>";
+    echo " <a href='listado.php' style='text-decoration:none;'><button>Volver</button></a>";
 }
 $stmt = null;
 $conProyecto = null;
-echo "<p style='font-weight: bold'>Producto de Código: $cod Borrado
-correctamente.";
-echo " <a href='listado.php'
-style='text-decoration:none;'><button>Volver</button></a></p>";
+echo "<p style='font-weight: bold'>Producto de Código: $cod Borrado correctamente.";
+echo " <a href='listado.php' style='text-decoration:none;'><button>Volver</button></a></p>";
